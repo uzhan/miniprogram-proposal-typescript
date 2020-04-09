@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#8E8E8E",
+    "selectedColor": "#212020",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "/image/icon_can.png",
+        "selectedIconPath": "/image/icon_acan.png",
+        "pagePath": "pages/index/index",
+        "text": "点餐"
+      },
+      {
+        "iconPath": "/image/icon_order.png",
+        "selectedIconPath": "/image/icon_aorder.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "iconPath": "/image/icon_my.png",
+        "selectedIconPath": "/image/icon_amy.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
