@@ -8,7 +8,7 @@ Component({
         pagePath: "/pages/index/index",
         iconPath: "/image/icon_can.png",
         selectedIconPath: "/image/icon_acan.png",
-        text: "点餐",
+        text: "首页",
       },
       {
         pagePath: "/pages/order/order",

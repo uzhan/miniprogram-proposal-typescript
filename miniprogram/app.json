@@ -20,7 +20,7 @@
         "iconPath": "/image/icon_can.png",
         "selectedIconPath": "/image/icon_acan.png",
         "pagePath": "pages/index/index",
-        "text": "点餐"
+        "text": "首页"
       },
       {
         "iconPath": "/image/icon_order.png",

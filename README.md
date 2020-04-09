@@ -19,10 +19,11 @@
 │   ├── api                    # 所有请求
 │   ├── image                  # 图片静态资源
 │   ├── components             # 全局组件
+│   ├── custom-tab-bar         # 自定义tabbar组件
 │   ├── config                 # 接口配置文件
 │   ├── utils                  # 全局方法及封装
 │   ├── pages                  # 所有页面
-│       └── ....               # 页面文件夹
+│       ├── ....               # 页面文件夹
 │           ├── xxx.js               # 页面js文件
 │           ├── xxx.ts               # 页面ts文件
 │           ├── xxx.wxss             # 页面样式
