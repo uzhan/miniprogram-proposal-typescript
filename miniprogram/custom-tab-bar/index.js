@@ -28,11 +28,8 @@ Component({
   methods: {
     switchTab(e) {
       const data = e.currentTarget.dataset
-      const url = data.path
-      wx.switchTab({ url })
-      this.setData({
-        selected: data.index,
-      })
+      wx.switchTab({ url: data.path })
+      // 这里使用setData会有组件加载闪屏的bug
     },
   },
 })

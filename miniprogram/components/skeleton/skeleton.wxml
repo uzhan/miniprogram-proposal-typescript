@@ -1,0 +1,19 @@
+<!--components/skeleton/skeleton.wxml-->
+<view
+  class="page"
+  style="width: {{systemInfo.width}}px; height: {{systemInfo.height}}px; background-color: {{bgcolor}};"
+>
+  <view
+    wx:for="{{skeletonRectLists}}"
+    wx:key="index"
+    class="view {{loading}}"
+    style="width: {{item.dataset.sWidth || item.width}}{{unit}}; height: {{item.dataset.sHeight || item.height}}{{unit}}; left: {{item.left}}px; top: {{item.top}}px"
+  />
+  <view
+    wx:for="{{skeletonCircleLists}}"
+    wx:key="index"
+    class="view {{loading}}"
+    style="width: {{item.width}}{{unit}}; height: {{item.height}}{{unit}}; border-radius: {{item.width}}{{unit}};top: {{item.top}}px;left: {{item.left}}px;"
+  />
+  <view class="spinbox" wx:if="{{loading == 'spin'}}"><view class="spinner" /></view>
+</view>
